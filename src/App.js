@@ -5,7 +5,6 @@ import GitHub from './components/GitHub'
 import Search from './components/Search'
 
 
-// const API_KEY = 'e0b2af1e780fb4e13a7f833917c6235b618ab352'
 
 /*
 https://api.github.com/orgs/{organization}/members
