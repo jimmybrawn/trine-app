@@ -9,7 +9,7 @@ class Search extends Component {
     render() {
         return (
             <div className="Search">
-                <input onChange={e => this.onInputChange(e.target.value)}
+                <input className="form-control" onChange={e => this.onInputChange(e.target.value)}
                     placeholder="Search here" />
             </div>
         )

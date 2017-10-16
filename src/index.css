@@ -3,3 +3,29 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
+header h1{
+  text-align: center
+}
+.Search input {
+  margin: 30px 0;
+  font-size: 21px;
+  padding: 16px;
+  height: 52px
+}
+.githubMember {
+  padding: 15px;
+  display: inline-block;
+  background: white;
+
+}
+.githubMember:hover {
+  box-shadow: inset rgba(0, 0, 255, 0.5) 0px 0px 3px
+}
+.githubMember__name h2{
+  font-size: 16px;
+}
+.githubMember__avatar img {
+  width: 100%;
+  height: auto;
+  border-radius: 100%
+}
