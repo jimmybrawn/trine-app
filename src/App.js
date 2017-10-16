@@ -13,7 +13,7 @@ https://api.github.com/orgs/{organization}/members
 
 const urlforUsername = term => 
 // `https://api.github.com/users/${term}`
-`https://api.github.com/orgs/${term}/members?client_id=854d64b957c70e5839a4&client_secret=06b32368a3e237e6ebde6a2e31bf1d0bee183a92`
+`https://api.github.com/orgs/${term}/members`
 
 class App extends Component {
   constructor(props) {
